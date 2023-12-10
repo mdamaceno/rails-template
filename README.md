@@ -7,11 +7,11 @@ This template sets configuration for PostreSQL database, Devise for authenticati
 ## How to use
 
 ```shell
-$ APP_NAME=yourappname rails new yourappname --api -d postgresql -m ./api-template.rb
+APP_NAME=yourappname rails new yourappname --api -d postgresql -m ./api-template.rb -f
 ```
 
 or
 
 ```shell
-$ APP_NAME=yourappname rails new yourappname --api -d postgresql -m https://raw.githubusercontent.com/mdamaceno/rails-template/main/api-template.rb
+APP_NAME=yourappname rails new yourappname --api -d postgresql -m https://raw.githubusercontent.com/mdamaceno/rails-template/main/api-template.rb -f
 ```
